@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Diary Entry Form</title>
+</head>
+<body>
+    <h1>Diary Entry Form</h1>
+    <form method="POST" action="entrytest.php">
+        <div class="div">
+            <label for="title">Title:<label>
+            <input type="text" name="title" required><br><br>
+
+            <label for="category">Category:</label>
+            <input type="text" name="category" required><br><br>
+
+            <label for="date">Date:</label>
+            <input type="date" name="date" required>
+        </div>
+        <br><br>
+
+        <label for="entry">Diary Entry:</label><br>
+        <textarea name="entry" rows="4" cols="50" required></textarea><br><br>
+
+        <input type="submit" value="Save Entry">
+    </form>
+</body>
+</html>
+s
